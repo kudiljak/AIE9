@@ -41,6 +41,21 @@ If you do not complete the above requirements or maintain a high-quality standar
 
 This GitHub repository is your gateway to mastering the art of AI Engineering.  ***All assignments for the course will be released here for your building, shipping, and sharing adventures!***
 
+# 🧑‍🤝‍🧑 Peer Supporters
+
+Your peer supporters will be your [guides](https://curiouslionlearning.com/why-group-learning/#Two_Types_of_Groups_Journey_and_Destination) throughout the cohort! Learn more about each peer supporter below!
+
+- [Mark Walker](https://absorbing-toaster-713.notion.site/Mark-Walker-21ccd547af3d80e09e8ee040254e6417?pvs=74), The Torchbearers, available at 10 AM ET on Saturdays
+- [Mani Sarkar](https://absorbing-toaster-713.notion.site/Mani-Sarkar-2a0cd547af3d80179c39f0beddb94005), International Support, available at 5:30 PM ET on Fridays
+- [Don Branson](https://absorbing-toaster-713.notion.site/Don-Branson-1c8cd547af3d80e9a221d62d2ddc4036?pvs=74), Distilled Context, available at 7 PM ET on Wednesdays
+- [Todd Deshane](https://absorbing-toaster-713.notion.site/Todd-Deshane-c18ecdb96e2c4afaafaa7aad522fa1a3?pvs=74), Merge AI, available at 5 PM ET on Sundays
+- [Can Temizyurek](https://absorbing-toaster-713.notion.site/Can-Temizyurek-21ccd547af3d80e2a548fd93234f767c), Lazarus Mission, available at 5 PM ET on Mondays
+- Lalit Row, Parallax, available at 9 PM ET on Wednesdays
+- Raphael Blankson, The Runtime, available at 8 PM ET on Fridays
+- More coming soon!
+
+**Add the [AIM calendar](https://bit.ly/aie9-cal) to your Google Calendar to stay on top of all Office Hour events!**
+
 # 🙏 Contributions
 
 We believe in the power of collaboration. Contributions, ideas, and feedback are highly encouraged! Let's build the ultimate resource for AI Engineering together.
