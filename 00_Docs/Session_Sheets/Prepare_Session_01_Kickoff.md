@@ -53,6 +53,3 @@ The **code** for this session flows directly from these core concepts, and inc
 
 - Original [vibe coding tweet](https://x.com/karpathy/status/1886192184808149383) by Andrej Karpathy
 - The [Way of Code](https://www.thewayofcode.com/) by Rick Rubin and an [interview on its cultural impact](https://www.youtube.com/watch?v=6BDsFUvPqI0)
-- Cursor's [agent best practices guide](https://cursor.com/blog/agent-best-practices)
-- [Agent design patterns](https://rlancemartin.github.io/2026/01/09/agent_design/) by Lance Martin
-- [State of AI Evals](https://x.com/hwchase17/status/2010044779225329688) by Harrison Chace
