@@ -9,7 +9,7 @@
 
 | 📰 Session Sheet | ⏺️ Recording     | 🖼️ Slides        | 👨‍💻 Repo         | 📝 Homework      | 📁 Feedback       |
 |:-----------------|:-----------------|:-----------------|:-----------------|:-----------------|:-----------------|
-| [Vibe Check!](https://github.com/AI-Maker-Space/AIE9/blob/main/00_AIM_Docs/Session_Sheets/01_Vibe Check.md) | Coming Soon! | Coming Soon! | You are here! | Coming Soon! | Coming Soon! |
+| [Vibe Check!](https://github.com/AI-Maker-Space/AIE9/blob/main/00_AIM_Docs/Session_Sheets/01_Vibe_Check.md) | Coming Soon! | Coming Soon! | You are here! | Coming Soon! | Coming Soon! |
 
 ## 🏗️ How AIM Does Assignments
 
