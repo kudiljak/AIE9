@@ -4,7 +4,7 @@ Quicklinks are to help you **easily navigate individual session information** fo
 
 | 📰 Session Sheet | ⏺️ Recording  | 🖼️ Slides     | 👨‍💻 Repo     | 📝 Homework      | 📁 Feedback       |
 |:-----------------|:-----------------|:-----------------|:-----------------|:-----------------|:-----------------|
-| [Kickoff!](https://github.com/AI-Maker-Space/AIE9/blob/main/00_Docs/Session_Sheets/01_Vibe%20Check.md) | Coming Soon! | Coming Soon! | Coming Soon! | Coming Soon! | Coming Soon! |
+| [Vibe Check!](https://github.com/AI-Maker-Space/AIE9/blob/main/00_AIM_Docs/Session_Sheets/01_Vibe_Check.md) | Coming Soon! | Coming Soon! | [Repo](https://github.com/AI-Maker-Space/AIE9/tree/main/01_Vibe_Check) | Coming Soon! | Coming Soon! |
 
 
 ## Initial Setup
