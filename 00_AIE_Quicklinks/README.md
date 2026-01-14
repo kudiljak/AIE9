@@ -4,12 +4,12 @@ Quicklinks are to help you **easily navigate individual session information** fo
 
 | 📰 Session Sheet | ⏺️ Recording  | 🖼️ Slides     | 👨‍💻 Repo     | 📝 Homework      | 📁 Feedback       |
 |:-----------------|:-----------------|:-----------------|:-----------------|:-----------------|:-----------------|
-| [Kickoff!](https://github.com/AI-Maker-Space/AIE9/blob/main/00_AIM_Docs/Session_Sheets/01_Vibe Check.md) | Coming Soon! | Coming Soon! | Coming Soon! | Coming Soon! | Coming Soon! |
+| [Kickoff!](https://github.com/AI-Maker-Space/AIE9/blob/main/00_Docs/Session_Sheets/01_Vibe%20Check.md) | Coming Soon! | Coming Soon! | Coming Soon! | Coming Soon! | Coming Soon! |
 
 
 ## Initial Setup
 1. [Git and GitHub](../00_Docs/Prerequisites/Initial_Setup/1_Git_and_GitHub)
-2. [Set Up Initial Repos](../00_Docs/Prerequisites/Initial_Setup/Initial_Setup/2_Set_Up_Initial_Repos)
+2. [Set Up Initial Repos](../00_Docs/Prerequisites/Initial_Setup/2_Set_Up_Initial_Repos)
 3. [Branch Development](../00_Docs/Prerequisites/Initial_Setup/3_Branch_Development)
 4. [Your Weekly Git Workflow](../00_Docs/Prerequisites/Initial_Setup/4_Your_Weekly_Git_Workflow)
 5. [Coding Agents](../00_Docs/Prerequisites/Initial_Setup/5_Coding_Agents)

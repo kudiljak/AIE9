@@ -12,7 +12,7 @@ Over 10 weeks, we'll have 20 sessions, as in our [Course Schedule & Curriculum](
 
 **Before class**, you should read the appropriate `Session_Sheet`. It contains useful information about what we're doing, why, and how you can best prepare to make the most out of your in-class experience!
 
-**After class**, in addition to the useful information, you can access all **📚 Course Materials** directly from the Session Sheet, as you can through [`00_AIE_Quicklinks`](00_AIM_Quicklinks/README.md).
+**After class**, in addition to the useful information, you can access all **📚 Course Materials** directly from the Session Sheet, as you can through [`00_AIE_Quicklinks`](../00_AIE_Quicklinks/README.md).
 
 ## Prerequisite Materials
 We have **📚 Course Materials** delivered during [The AI Engineer Onramp, Cohort 2](https://maven.com/aimakerspace/ai-eng-onramp). 
