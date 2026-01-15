@@ -13,7 +13,7 @@ The same setup we saw in Session 1 is required here. You will need your dev envi
 ## **🧑‍💻 Recommended Pre-Work**
 
 1. We _again_ recommend checking out the [Language Models are Few-Shot Learners (2020)](https://arxiv.org/abs/2005.14165) paper. As we'll discuss below, it literally invented In-Context Learning.
-2. The OG RAG Paper is called [Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks (2020)](https://arxiv.org/abs/2005.11401). It's kind of the week for this one.
+2. The OG RAG Paper is called [Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks (2020)](https://arxiv.org/abs/2005.11401). It's kind of the week of class for this one.
 
 # 💬 From Prompt Engineering to RAG
 
@@ -118,7 +118,7 @@ The dimension of an embedding model is important because if there are too few di
 
 <br/>
 
-In practice, we do not often leverage words directly. Instead, the transformer typically processes tokens, or sub-words, while useful embedding models that we use in sentence similarity or retrieval (e.g., RAG) today are focused on the sentence level. In Sentence-BERT (2019) by Reimers and Gurevych [[Ref](https://arxiv.org/abs/1908.10084?utm_source=chatgpt.com)], which underlies Hugging Face’s powerful Sentence Transformers library [[Ref](https://huggingface.co/sentence-transformers)], one fixed-size vector representing each sentence is aggregated based on the matrix of token-level embeddings that BERT-style models output. In other words, we assemble embedding representations of sentences based on their constituent parts (tokens) to put together the meaning of the whole sequence.
+In practice, we do not often leverage words directly. Instead, the transformer typically processes tokens, or sub-words. Most embedding models that we use for similarity or retrieval (e.g., RAG) today are focused on the sentence level. In Sentence-BERT (2019) by Reimers and Gurevych [[Ref](https://arxiv.org/abs/1908.10084?utm_source=chatgpt.com)], which underlies Hugging Face’s powerful Sentence Transformers library [[Ref](https://huggingface.co/sentence-transformers)], one fixed-size vector representing each sentence is aggregated based on the matrix of token-level embeddings that BERT-style models output. In other words, we assemble embedding representations of sentences based on their constituent parts (tokens) to put together the meaning of the whole sequence.
 
 </details>
 
