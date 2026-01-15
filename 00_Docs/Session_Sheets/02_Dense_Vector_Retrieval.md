@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # 🗺️ Overview
 
 In Session 2, we dig deeper into prototyping LLM applications with Retrieval Augmented Generation, or RAG. From Session 1, we understand that we can write simple prompts and provide them to an LLM API. We can evaluate the output responses on behalf of our users with vibe checks. From The AIE Challenge, we know that we can wrap the functionality we iterate towards through prompting and vibe checking with a frontend and a deployed backend so that other people can use our app. Now, we'll see what happens when we  start adding the most appropriate context we can find. We should ask "what does the LLM need to know - that it doesn't already know - to give great outputs to users?" By augmenting our prompts with reference materials retrieved before generation, we do **RAG**.
@@ -209,3 +210,6 @@ The [LLM application stack](https://a16z.com/emerging-architectures-for-llm-appl
 --
 
 Do you have any questions about how to best prepare for Session 1 after reading? Please don't hesitate to provide direct feedback to `greg@aimakerspace.io` or `Dr Greg` on Discord!
+=======
+Coming soon!
+>>>>>>> 3e3e19ff612ed9e9440e99e357cfb6a7b334fe3a
