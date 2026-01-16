@@ -31,17 +31,7 @@ Run this command:
 git pull upstream main --allow-unrelated-histories
 ```
 
-### 2️⃣ Create an Assignment Branch
-
-This is where you’ll work, in a branch off of your local git repo. [Checkout](https://git-scm.com/docs/git-checkout) simply lets us switch to the branch, and `-b` creates a new branch.
-
-```markdown
-git checkout -b lesson1-assignment
-```
-
-🎉 Congrats! *You just created your first (non `main`) branch and you’re able to do the assignment!*
-
-### 3️⃣ Do Assignment
+### 2️⃣ Do Assignment
 
 Make changes, do the homework
 
@@ -55,7 +45,7 @@ git add .
 
 🎉 Congrats! *You just moved changes from your working directly to the staging area (also called the index)!*
 
-### 4️⃣ Your First [Commit](https://git-scm.com/docs/git-commit)
+### 3️⃣ Your First [Commit](https://git-scm.com/docs/git-commit)
 
 Create a new commit that includes a log message describing the changes you’ve made.
 
@@ -65,27 +55,26 @@ git commit -m "Completed lesson 1 assignment"
 
 *You just recorded the changes to your repo.*
 
-### 5️⃣ Push to Your Remote
+### 4️⃣ Push to Your Remote
 
 Now that we’re done with our assignment, we can overwrite the old unfinished assignment on our remote repository with our new finished code!
 
 ```markdown
-git push origin lesson1-assignment
+git push origin main
 ```
 
 🎉 Congrats! *You just pushed your changes to production (your live, remote, always-on repo)!*
 
-### 6️⃣ Repeat Weekly!
+### 5️⃣ Repeat Weekly!
 
 Now imagine you’re about to start **week 3**’s work! Can you recall the steps you need to follow and why?
 
 ```markdown
 git pull upstream main --allow-unrelated-histories # Get new lesson materials from AI Makerspace remote
-git checkout -b lessonX-assignment # Create branch to work on new assignment
 #--do work--
 git add . # Add changes to git history / move changes to staging 
 git commit -m "Completed lesson X assignment" # Commit changes to git log with a helpful message
-git push origin lessonX-assignment # Push changes to our public remote so we can submit!
+git push origin main # Push changes to our public remote so we can submit!
 ```
 
 ### Thinking Questions

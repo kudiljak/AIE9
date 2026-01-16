@@ -5,11 +5,11 @@
 
 <h1 align="center" id="heading">Session 1: Introduction and Vibe Check</h1>
 
-### [Quicklinks](https://github.com/AI-Maker-Space/AIE9/tree/main/00_AIM_Quicklinks)
+### [Quicklinks](https://github.com/AI-Maker-Space/AIE9/tree/main/00_AIE_Quicklinks)
 
 | 📰 Session Sheet | ⏺️ Recording     | 🖼️ Slides        | 👨‍💻 Repo         | 📝 Homework      | 📁 Feedback       |
 |:-----------------|:-----------------|:-----------------|:-----------------|:-----------------|:-----------------|
-| [Vibe Check!](https://github.com/AI-Maker-Space/AIE9/blob/main/00_AIM_Docs/Session_Sheets/01_Vibe_Check.md) |[Recording!](https://drive.google.com/file/d/1tAdJ1nTHteVxt8ERsTIV3bEqiB90_cV6/view?usp=drive_link) | [Session 1 Slides](https://www.canva.com/design/DAG-EBzN2PQ/gE9-Uma217yych4M7GCjSw/edit?utm_content=DAG-EBzN2PQ&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton) | You are here! | [Session 1 Assignment: Vibe Check](https://forms.gle/NeN59bCLdtXvwzVJ9) | [Feedback 1/13](https://forms.gle/1im4nmYK9cW9MFEk6)
+| [Vibe Check!](https://github.com/AI-Maker-Space/AIE9/blob/main/00_Docs/Session_Sheets/01_Vibe%20Check.md) | Coming Soon! | Coming Soon! | You are here! | Coming Soon! | Coming Soon! |
 
 ## 🏗️ How AIM Does Assignments
 
@@ -29,7 +29,7 @@ In the following assignment, you are required to take the app that you created f
 
 You will be required to submit a link to your GitHub, as well as screenshots of the completed "vibe checks" through the provided Google Form!
 
-> NOTE: This will require you to make updates to your personal class repository, instructions on that process can be found [here](https://github.com/AI-Maker-Space/AIE9/tree/main/00_Initial_Setup)!
+> NOTE: This will require you to make updates to your personal class repository, instructions on that process can be found [here](https://github.com/AI-Maker-Space/AIE9/tree/main/00_Docs/Prerequisites/Initial_Setup)!
 
 
 #### A Note on Vibe Checking
@@ -257,7 +257,7 @@ Please make adjustments to your application that you believe will improve the vi
 ### Main Assignment
 Follow these steps to prepare and submit your homework:
 1. Pull the latest updates from upstream into the main branch of your AIE9 repo:
-    - For your initial repo setup see [00_Initial_Setup](https://github.com/AI-Maker-Space/AIE9/tree/main/00_Initial_Setup)
+    - For your initial repo setup see [Initial_Setup](https://github.com/AI-Maker-Space/AIE9/tree/main/00_Docs/Prerequisites/Initial_Setup)
     - To get the latest updates from AI Makerspace into your own AIE9 repo, run the following commands:
     ```
     git checkout main
