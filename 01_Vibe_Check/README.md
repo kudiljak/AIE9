@@ -45,20 +45,21 @@ You will be required to submit a link to your GitHub, as well as screenshots of 
 Please evaluate your system on the following questions:
 
 1. Explain the concept of object-oriented programming in simple terms to a complete beginner.
-    - Aspect Tested: 
+    - Aspect Tested: conceptual understanding and beginner-friendly explanation ability
 2. Read the following paragraph and provide a concise summary of the key points…
-    - Aspect Tested:
+    - Aspect Tested: summarization and key point extraction
 3. Write a short, imaginative story (100–150 words) about a robot finding friendship in an unexpected place.
-    - Aspect Tested:
+    - Aspect Tested: creative writing and "imagination"
 4. If a store sells apples in packs of 4 and oranges in packs of 3, how many packs of each do I need to buy to get exactly 12 apples and 9 oranges?
-    - Aspect Tested:
+    - Aspect Tested: logical reasining and basic math problem-solving
 5. Rewrite the following paragraph in a professional, formal tone…
-    - Aspect Tested:
+    - Aspect Tested: tone adaptation 
 
 #### ❓Question #1:
 
 Do the answers appear to be correct and useful?
-##### ✅ Answer: The assistant provided accurate and useful responses for all evaluated tasks.
+##### ✅ Answer: 
+The assistant provided accurate and useful responses for all evaluated tasks. However, the answers are not always well-formatted or easy to read. Since the assistant is intended as a “mental check” assistant, it might be better for it to clarify that such topics are not within its area of expertise, after all, a wellness assistant isn’t expected to be an OOP expert.
 
 ---
 
@@ -197,7 +198,8 @@ Now test your assistant with personal questions it should be able to help with. 
 #### ❓Question #2:
 
 Are the vibes of this assistant's answers aligned with your vibes? Why or why not?
-##### ✅ Answer: Yes, I really like the assistant’s answers. They align closely with my own thinking and approach, and the way the responses are structured and explained feels very much “in my vibe.” The guidance is clear, practical, and presented in a way that resonates with how I would reason through these decisions or tasks myself.
+##### ✅ Answer: 
+Yes, I really like the assistant’s answers. They align closely with my own thinking and approach, and the way the responses are structured and explained feels very much “in my vibe.” The guidance is clear, practical, and presented in a way that resonates with how I would reason through these decisions or tasks myself. The tone of the assistant’s answers generally matches the tone of the prompts. The responses are friendly, encouraging, and explanatory, which fits well with prompts asking for guidance, pros and cons, or recipe suggestions.
 
 ---
 
@@ -229,7 +231,8 @@ Now test your assistant with questions that would require capabilities beyond ba
 #### ❓Question #3:
 
 What are some limitations of your application?
-##### ✅ Answer: The assistant is limited in accessing real-time, personal, or external data. For example, it cannot view my calendar, flight details, or current traffic conditions directly. While it can provide guidance and suggestions for planning based on information I provide, it cannot perform tasks that require live data or interaction with external tools, personal accounts, etc.
+##### ✅ Answer: 
+The assistant is limited in accessing real-time, personal, or external data. For example, it cannot view my calendar, flight details, or current traffic conditions directly. While it can provide guidance and suggestions for planning based on information I provide, it cannot perform tasks that require live data or interaction with external tools, personal accounts, etc.
 
 ---
 
