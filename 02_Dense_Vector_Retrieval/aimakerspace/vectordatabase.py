@@ -17,21 +17,42 @@ class VectorDatabase:
     def __init__(self, embedding_model: EmbeddingModel = None):
         self.vectors = defaultdict(np.array)
         self.embedding_model = embedding_model or EmbeddingModel()
+        self.metadata = {}
 
-    def insert(self, key: str, vector: np.array) -> None:
+    def insert(self, key: str, vector: np.array, metadata: dict = None) -> None:
         self.vectors[key] = vector
+        if metadata is not None:
+            self.metadata[key] = metadata
 
     def search(
         self,
         query_vector: np.array,
         k: int,
         distance_measure: Callable = cosine_similarity,
+        metadata_filter: dict = None
     ) -> List[Tuple[str, float]]:
+        # Filter vectors by metadata if filter is provided
+        items_to_search = self.vectors.items()
+        if metadata_filter:
+            items_to_search = [
+                (key, vector) for key, vector in self.vectors.items()
+                if self._matches_metadata_filter(key, metadata_filter)
+            ]
+        
         scores = [
             (key, distance_measure(query_vector, vector))
-            for key, vector in self.vectors.items()
+            for key, vector in items_to_search
         ]
         return sorted(scores, key=lambda x: x[1], reverse=True)[:k]
+
+    def _matches_metadata_filter(self, key: str, metadata_filter: dict) -> bool:
+        """Check if metadata for a key matches the filter."""
+        if key not in self.metadata:
+            return False
+        for filter_key, filter_value in metadata_filter.items():
+            if self.metadata[key].get(filter_key) != filter_value:
+                return False
+        return True
 
     def search_by_text(
         self,
@@ -39,18 +60,20 @@ class VectorDatabase:
         k: int,
         distance_measure: Callable = cosine_similarity,
         return_as_text: bool = False,
+        metadata_filter: dict = None,
     ) -> List[Tuple[str, float]]:
         query_vector = self.embedding_model.get_embedding(query_text)
-        results = self.search(query_vector, k, distance_measure)
+        results = self.search(query_vector, k, distance_measure, metadata_filter)
         return [result[0] for result in results] if return_as_text else results
 
     def retrieve_from_key(self, key: str) -> np.array:
         return self.vectors.get(key, None)
 
-    async def abuild_from_list(self, list_of_text: List[str]) -> "VectorDatabase":
+    async def abuild_from_list(self, list_of_text: List[str], metadata_list: List[dict] = None) -> "VectorDatabase":
         embeddings = await self.embedding_model.async_get_embeddings(list_of_text)
-        for text, embedding in zip(list_of_text, embeddings):
-            self.insert(text, np.array(embedding))
+        for i, (text, embedding) in enumerate(zip(list_of_text, embeddings)):
+            metadata = metadata_list[i] if metadata_list and i < len(metadata_list) else None
+            self.insert(text, np.array(embedding), metadata)
         return self
 
 
