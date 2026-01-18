@@ -51,7 +51,7 @@ Please evaluate your system on the following questions:
 3. Write a short, imaginative story (100–150 words) about a robot finding friendship in an unexpected place.
     - Aspect Tested: creative writing and "imagination"
 4. If a store sells apples in packs of 4 and oranges in packs of 3, how many packs of each do I need to buy to get exactly 12 apples and 9 oranges?
-    - Aspect Tested: logical reasining and basic math problem-solving
+    - Aspect Tested: logical reasoning and basic math problem-solving
 5. Rewrite the following paragraph in a professional, formal tone…
     - Aspect Tested: tone adaptation 
 
