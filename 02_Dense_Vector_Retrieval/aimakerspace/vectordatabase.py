@@ -17,18 +17,25 @@ class VectorDatabase:
     def __init__(self, embedding_model: EmbeddingModel = None):
         self.vectors = defaultdict(np.array)
         self.embedding_model = embedding_model or EmbeddingModel()
+<<<<<<< HEAD
         self.metadata = {}
 
     def insert(self, key: str, vector: np.array, metadata: dict = None) -> None:
         self.vectors[key] = vector
         if metadata is not None:
             self.metadata[key] = metadata
+=======
+
+    def insert(self, key: str, vector: np.array) -> None:
+        self.vectors[key] = vector
+>>>>>>> 0a051f6a70e9afac0e9aed322137991150e0d852
 
     def search(
         self,
         query_vector: np.array,
         k: int,
         distance_measure: Callable = cosine_similarity,
+<<<<<<< HEAD
         metadata_filter: dict = None
     ) -> List[Tuple[str, float]]:
         # Filter vectors by metadata if filter is provided
@@ -54,26 +61,48 @@ class VectorDatabase:
                 return False
         return True
 
+=======
+    ) -> List[Tuple[str, float]]:
+        scores = [
+            (key, distance_measure(query_vector, vector))
+            for key, vector in self.vectors.items()
+        ]
+        return sorted(scores, key=lambda x: x[1], reverse=True)[:k]
+
+>>>>>>> 0a051f6a70e9afac0e9aed322137991150e0d852
     def search_by_text(
         self,
         query_text: str,
         k: int,
         distance_measure: Callable = cosine_similarity,
         return_as_text: bool = False,
+<<<<<<< HEAD
         metadata_filter: dict = None,
     ) -> List[Tuple[str, float]]:
         query_vector = self.embedding_model.get_embedding(query_text)
         results = self.search(query_vector, k, distance_measure, metadata_filter)
+=======
+    ) -> List[Tuple[str, float]]:
+        query_vector = self.embedding_model.get_embedding(query_text)
+        results = self.search(query_vector, k, distance_measure)
+>>>>>>> 0a051f6a70e9afac0e9aed322137991150e0d852
         return [result[0] for result in results] if return_as_text else results
 
     def retrieve_from_key(self, key: str) -> np.array:
         return self.vectors.get(key, None)
 
+<<<<<<< HEAD
     async def abuild_from_list(self, list_of_text: List[str], metadata_list: List[dict] = None) -> "VectorDatabase":
         embeddings = await self.embedding_model.async_get_embeddings(list_of_text)
         for i, (text, embedding) in enumerate(zip(list_of_text, embeddings)):
             metadata = metadata_list[i] if metadata_list and i < len(metadata_list) else None
             self.insert(text, np.array(embedding), metadata)
+=======
+    async def abuild_from_list(self, list_of_text: List[str]) -> "VectorDatabase":
+        embeddings = await self.embedding_model.async_get_embeddings(list_of_text)
+        for text, embedding in zip(list_of_text, embeddings):
+            self.insert(text, np.array(embedding))
+>>>>>>> 0a051f6a70e9afac0e9aed322137991150e0d852
         return self
 
 

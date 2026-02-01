@@ -45,6 +45,7 @@ You will be required to submit a link to your GitHub, as well as screenshots of 
 Please evaluate your system on the following questions:
 
 1. Explain the concept of object-oriented programming in simple terms to a complete beginner.
+<<<<<<< HEAD
     - Aspect Tested: conceptual understanding and beginner-friendly explanation ability
 2. Read the following paragraph and provide a concise summary of the key points…
     - Aspect Tested: summarization and key point extraction
@@ -54,12 +55,27 @@ Please evaluate your system on the following questions:
     - Aspect Tested: logical reasoning and basic math problem-solving
 5. Rewrite the following paragraph in a professional, formal tone…
     - Aspect Tested: tone adaptation 
+=======
+    - Aspect Tested:
+2. Read the following paragraph and provide a concise summary of the key points…
+    - Aspect Tested:
+3. Write a short, imaginative story (100–150 words) about a robot finding friendship in an unexpected place.
+    - Aspect Tested:
+4. If a store sells apples in packs of 4 and oranges in packs of 3, how many packs of each do I need to buy to get exactly 12 apples and 9 oranges?
+    - Aspect Tested:
+5. Rewrite the following paragraph in a professional, formal tone…
+    - Aspect Tested:
+>>>>>>> 0a051f6a70e9afac0e9aed322137991150e0d852
 
 #### ❓Question #1:
 
 Do the answers appear to be correct and useful?
+<<<<<<< HEAD
 ##### ✅ Answer: 
 The assistant provided accurate and useful responses for all evaluated tasks. However, the answers are not always well-formatted or easy to read. Since the assistant is intended as a “mental check” assistant, it might be better for it to clarify that such topics are not within its area of expertise, after all, a wellness assistant isn’t expected to be an OOP expert.
+=======
+##### ✅ Answer:
+>>>>>>> 0a051f6a70e9afac0e9aed322137991150e0d852
 
 ---
 
@@ -74,6 +90,7 @@ Now test your assistant with personal questions it should be able to help with. 
 - "What can I cook with [enter ingredients] in fridge."
 
 ##### Your Prompts and Results:
+<<<<<<< HEAD
 1. Prompt: What are the pros and cons of data scientists versus AI engineers as the next step in my career?
    - Result: Choosing between a career as a data scientist and an AI engineer is an important decision, and it’s great that you’re exploring your options! Here’s a breakdown of the pros and cons for each role to help you decide:
 
@@ -194,12 +211,24 @@ Now test your assistant with personal questions it should be able to help with. 
         If you have any vegetables like bell peppers, broccoli, or snap peas, you can sauté them in the same pan before adding the chicken to make it a complete meal.
 
         Enjoy your flavorful dish! Let me know if you need any more help or tips.
+=======
+1. Prompt:
+   - Result:
+2. Prompt:
+   - Result:
+3. Prompt:
+   - Result:
+>>>>>>> 0a051f6a70e9afac0e9aed322137991150e0d852
 
 #### ❓Question #2:
 
 Are the vibes of this assistant's answers aligned with your vibes? Why or why not?
+<<<<<<< HEAD
 ##### ✅ Answer: 
 Yes, I really like the assistant’s answers. They align closely with my own thinking and approach, and the way the responses are structured and explained feels very much “in my vibe.” The guidance is clear, practical, and presented in a way that resonates with how I would reason through these decisions or tasks myself. The tone of the assistant’s answers generally matches the tone of the prompts. The responses are friendly, encouraging, and explanatory, which fits well with prompts asking for guidance, pros and cons, or recipe suggestions.
+=======
+##### ✅ Answer:
+>>>>>>> 0a051f6a70e9afac0e9aed322137991150e0d852
 
 ---
 
@@ -211,6 +240,7 @@ Now test your assistant with questions that would require capabilities beyond ba
 - "What time should I leave for the airport?"
 
 ##### Your Prompts and Results:
+<<<<<<< HEAD
 1. Prompt: What does my schedule look like tomorrow?
    - Result: I don’t have access to your personal schedule or calendar. However, I can help you outline a plan for tomorrow or assist you in prioritizing tasks if you share what you need to accomplish. Would you like to do that?
 2. Prompt: What time should I leave for the airport?
@@ -227,12 +257,22 @@ Now test your assistant with questions that would require capabilities beyond ba
         Once you have this information, add up the times and set a departure time that allows you to factor in any unexpected delays. 
 
         If you can share specific details, I can help you calculate a more precise time!
+=======
+1. Prompt:
+   - Result:
+2. Prompt:
+   - Result:
+>>>>>>> 0a051f6a70e9afac0e9aed322137991150e0d852
 
 #### ❓Question #3:
 
 What are some limitations of your application?
+<<<<<<< HEAD
 ##### ✅ Answer: 
 The assistant is limited in accessing real-time, personal, or external data. For example, it cannot view my calendar, flight details, or current traffic conditions directly. While it can provide guidance and suggestions for planning based on information I provide, it cannot perform tasks that require live data or interaction with external tools, personal accounts, etc.
+=======
+##### ✅ Answer:
+>>>>>>> 0a051f6a70e9afac0e9aed322137991150e0d852
 
 ---
 
