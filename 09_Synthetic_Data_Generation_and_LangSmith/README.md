@@ -99,3 +99,6 @@ Follow these steps to prepare and submit your homework assignment:
 2. In addition to the Homework Submission instructions in Main Homework Assignment ➡ Step 4, include the following URLs to your Advanced Build's:
     + GitHub Repo
     + Production Deployment
+
+### Assets
+I added two screenshots in the assets folder.
