@@ -74,7 +74,7 @@ def _build_rag_graph(data_dir: str):
     # Prompt and model
     human_template = (
         "\n#CONTEXT:\n{context}\n\nQUERY:\n{query}\n\n"
-        "Use the provide context to answer the provided user query. "
+        "Use the provided context to answer the provided user query. "
         "Only use the provided context to answer the query. If you do not know the answer, or it's not contained in the provided context respond with \"I don't know\""
     )
     chat_prompt = ChatPromptTemplate.from_messages([("human", human_template)])
