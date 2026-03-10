@@ -6,7 +6,7 @@
   "graphs": {
     "simple_agent": "app.graphs.simple_agent:graph",
     "agent_with_helpfulness": "app.graphs.agent_with_helpfulness:graph",
-    "evaluator_agent": "app.evaluator_agent:graph"
+    "evaluator_agent": "app.graphs.evaluator_agent:graph"
   },
   "assistants": {
     "agent": {
