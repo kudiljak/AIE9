@@ -12,6 +12,7 @@ This `app` package organizes LangGraph/LangChain agent graphs, shared state, mod
 - `graphs/`: Collection of agent graphs that orchestrate model calls, tool execution, and optional evaluation loops.
   - `simple_agent.py`: Smallest useful agent: model -> optional tools -> done.
   - `agent_with_helpfulness.py`: Adds a helpfulness evaluator loop that can route back to the agent or stop.
+  - `evaluator_agent.py`: Adds a fact check evaluator loop that can route back to the agent or stop.
 
 ### Why this structure
 
