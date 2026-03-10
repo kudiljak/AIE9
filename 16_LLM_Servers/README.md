@@ -83,7 +83,13 @@ What is the difference between serverless and dedicated endpoints?
 
 #### ✅ Answer:
 
-_(insert your answer here)_
+_The main difference between serverless and dedicated endpoints is how the model is hosted and how we pay for it._
+
+_With serverless endpoints, the model runs only when a request is sent. The provider automatically spins up the infrastructure to handle the request and may shut it down again if it’s not being used. Because of this, we typically pay per request or per token processed. This makes serverless endpoints very convenient for prototypes or applications with low or irregular traffic, since we don’t need to manage any infrastructure. The downside is that the first request can sometimes be slower due to a cold start, when the system needs to load the model before responding._
+
+_Dedicated endpoints, on the other hand, run the model on a server that is always on. The model stays loaded in memory and is ready to respond at any time, which usually means more consistent performance and lower latency. Instead of paying per request, we usually pay for the time the server is running, even if it’s not actively processing requests. Because of this, dedicated endpoints are typically used for production systems or applications with steady traffic where reliable performance is important._
+
+_In short, serverless endpoints are more flexible and cost-efficient for smaller or unpredictable workloads, while dedicated endpoints are better when we need stable performance and a model that’s always ready to respond._
 
 ### ❓ Question #2:
 
@@ -91,7 +97,11 @@ Why is it important to consider token throughput and latency when choosing an LL
 
 #### ✅ Answer:
 
-_(insert your answer here)_
+_It’s important to consider token throughput and latency because they directly affect how fast the model can generate responses for the user._
+
+_Latency refers to how long it takes for the model to start responding after a request is sent, while token throughput describes how quickly the model can generate tokens once the response has started. If latency is high, the user may experience a noticeable delay before the answer begins. If token throughput is low, the response may appear very slowly, which can make the interaction feel sluggish._
+
+_For user-facing applications such as chatbots, assistants, or customer support tools, responsiveness is crucial for a good user experience. If responses take too long to start or generate slowly, users may become frustrated or assume the system is not working properly. Therefore, choosing a model with low latency and high token throughput helps ensure that responses appear quickly and smoothly, making the application feel more natural and interactive._
 
 ## Activity 1: RAGAS Evaluation with Cost Analysis
 
